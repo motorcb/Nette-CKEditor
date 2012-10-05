@@ -6,7 +6,7 @@ $(document).ready(function () {
         el.attr('required', null); // fixes http://dev.ckeditor.com/ticket/8031
         el.ckeditor(
             {
-                customConfig: "/ckeditor/ckeditor_config.js",
+                customConfig: "ckeditor_config.js",
                 language: $('html').attr('lang')
             }
         );
